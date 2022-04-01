@@ -1,7 +1,7 @@
 const { Router } = require("express");
 const router = Router();
 //prettier-ignore
-const { deleteGame, createGame, getGameById, getAllGames } = require("../../Controllers/game_controllers.js");
+const { deleteGame, createGame, getGameById, getAllGames } = require("./Controllers/game_controllers");
 
 router.get("/", getAllGames);
 router.get("/:id", getGameById);

@@ -19,7 +19,7 @@
 //     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 const server = require("./src/app.js");
 const { conn } = require("./src/db.js");
-const { loadGenresOnDb } = require("./Controllers/api_controllers.js");
+const { loadGenresOnDb } = require("./src/routes/Controllers/api_controllers");
 require("dotenv").config();
 const { PORT } = process.env;
 
